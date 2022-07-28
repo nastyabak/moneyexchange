@@ -1,0 +1,758 @@
+body {
+  padding: 0;
+  margin: 0;
+  color: 000;
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: 'Rubik', sans-serif;
+  text-transform: none !important;
+}
+
+p {
+  display: block;
+  margin: 0;
+  padding: 0;
+  color: #4E5983;
+  font-weight: 400;
+  line-height: 166.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.burger, .menu, .account, .box, .info, .socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.burger {
+  padding: 17px 100px 33px 100px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.menu {
+  width: 279px;
+}
+
+.account {
+  width: 259px;
+}
+
+.account-reg {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 18px 27px;
+  border-radius: 9px;
+  background: rgba(161, 127, 255, 0.11);
+}
+
+.main {
+  background: url('../img/backg.png') no-repeat center top / cover;
+}
+
+.main-about {
+  width: 1170px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+
+.about-title {
+  width: 853px;
+  padding-top: 113px ;
+  padding-bottom: 54px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-title h1 {
+  font-size: 60px;
+  line-height: 111.9%;
+  color: #fff;
+}
+
+.about-title p {
+  font-size: 19px;
+  line-height: 23px;
+  color: #fff;
+  padding-top: 28px;
+}
+
+.about-holder {
+    background: url('../img/holder1.png') no-repeat center top / cover;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    padding: 78px 85px 75px 106px;
+}
+
+.holder-title p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000;
+  margin-bottom: 39px;
+}
+
+.holder-title span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #4E5983;
+  margin-left: 15px;
+}
+
+
+.holder-box p {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.box-money {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.box-money input {
+  margin-top: 10px;
+  border: none;
+  font-family: 'Rubik';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+  box-sizing: border-box;
+  background: inherit;
+  background-clip: padding-box;
+  outline: none;
+  width: 50%;
+}
+
+.box-money p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;
+}
+
+.bank {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 40%;
+}
+
+.money-change {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.money-change p {
+  margin-right: 7px;
+  opacity: 1;
+}
+
+.money-change a {
+  margin-bottom: 4px;
+}
+
+.holder-switch {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 8px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.holder-btn {
+  background: url('../img/but.png') no-repeat center top / cover;  
+  width: 157px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.holder-btn a {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.container-1 {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.profits {
+  margin-top: 83px;
+  margin-bottom: 500px;
+  display: flex;
+  justify-content: space-between;
+} 
+
+.profit-1 {
+  width: 240px;
+  height: 340px;
+}
+
+.profit-2 {
+  width: 314px;
+  height: 340px;
+}
+
+.profit-3 {
+  width: 264px;
+  height: 340px;
+}
+
+.profits h3 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  margin-top: 50px;
+  margin-bottom: 32px;
+}
+
+.profits p {
+  opacity: 0.7;
+}
+
+.page {
+  background: linear-gradient(180deg, #EFF2FA 0%, rgba(255, 255, 255, 0) 96.57%);
+  opacity: 0.8;
+  margin-top: -100px;
+}
+
+.container-2 {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.history-case {
+  background: url('../img/holder1.png') no-repeat center top / cover;
+  background-size: 100% 100%;
+  margin-top: -270px;
+  padding: 102px 17px 100px 156px;
+  position: absolute;
+}
+
+.case {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.case-text h2 {
+  width: 320px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 132.4%;
+  color: #160647;
+  margin-bottom: 37px;
+}
+
+.case-text p {
+  width: 405px;
+  line-height: 166.5%;
+  opacity: 0.7;
+}
+
+.container-3 {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+.fund h2 {
+  padding-top: 423px;
+  margin-bottom: 99px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 111.9%;
+  text-align: center;
+  color: #160647;
+}
+
+.blocks1, .blocks2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blocks2 {
+  margin-top: 85px;
+  margin-bottom: 160px;
+}
+
+.block {
+  display: flex;
+  width: 229.71px;
+  height: 53.71px;
+}
+
+.block-title {
+  margin-left: 32px;
+}
+
+.block-title h4 {
+  margin-bottom: 2px;
+}
+
+.clients h2 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 132.4%;
+  margin-bottom: 115px;
+}
+
+.reviews {
+  display: flex;
+}
+
+.review p {
+  opacity: 0.7;
+  margin-bottom: 58px;
+}
+
+.review-person {
+  display: flex;
+  align-items: center;
+}
+
+.review-person h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 155.5%;
+  color: #160647;
+  margin-right: 30px;
+}
+
+.review-person p {
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 0px;
+}
+
+.arrows {
+  display: flex;
+  justify-content: flex-end;
+  margin: 47px 0px 97px 0px;
+}
+
+.left {
+  margin-right: 23px;
+}
+
+.offer {
+  background: linear-gradient(140.59deg, #562EC2 100%, #A07EFE 100%);
+  border-radius: 17px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 140px;
+}
+
+.figure-img {
+  padding: 10px 0px 0px 10px;
+}
+
+.offer-title {
+  width: 466px;;
+  padding: 80px 132px 80px 0px;
+}
+
+.offer-title h2 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 132.4%;
+  color: #FFFFFF;
+  margin-bottom: 21px;
+}
+
+.offer-title p {
+  color: #fff;
+  opacity: 0.7;
+  margin-bottom: 74px;
+}
+
+.offer-button a {
+  background: #FFFFFF;
+  border-radius: 10.2611px;
+  padding: 25px 45px;
+}
+
+.box {
+  margin-bottom: 80px;
+}
+
+.company p {
+  font-size: 14px;
+  line-height: 17px;
+  color: #838BA8;
+  margin: 20px 0px 0px 28px;
+}
+
+.info {
+  width: 544px;
+}
+
+.info a {
+  font-size: 14px;
+}
+
+.socials {
+  width: 136px;
+}
+
+/*Responsive*/
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+  html, body {
+    overflow-x:hidden;
+    width: auto;
+  }
+  .container, .main-about, .container-1, .page, .container-2, .container-3{
+      width: 100%;
+      margin-right: 0;
+  }
+  .burger {
+    padding: 20px;
+  }
+  .about-holder {
+    margin: 0px 30px 0px 30px;
+    padding: 70px 40px 75px 70px;
+  }
+  .box-money {
+    width: 300px;
+  }
+  .profits {
+    justify-content: space-around;
+  }
+  .history-case {
+    position: relative;
+    padding: 35px 0px 35px 0px;
+  }
+  .case {
+    align-items: center;
+  }
+  .case-img {
+    width: 405px;
+    height: 180px;
+  }
+  .case-img img {
+    width: 90%;
+  }
+  .fund, .clients {
+    padding: 0px 30px 0px 30px;
+  }
+  .fund h2 {
+    padding-top: 200px;
+  }
+  .reviews {
+    align-items: center;
+    justify-content: space-between;
+  }
+  .review {
+    width: 490px;
+    height: 210px;
+  }
+  .review p {
+    height: 120px;
+    margin-bottom: 0px;
+  }
+  .review-person {
+    margin-top: 20px;
+   
+  }
+  .review-person p {
+    height: auto;
+  }
+  .offer {
+    margin: 0px 20px 100px 20px;
+  }
+  .offer-title {
+    padding: 30px;
+  }
+  .footer {
+    padding: 0px 10px 0px 10px;
+  }
+  .info {
+    width: 480px;
+  }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+  .burger-img {
+    width: 150px;
+  }
+  .burger-img img {
+    width: 100%;
+  }
+  .about-title {
+    width: 100%;
+  }
+  .about-holder {
+    align-items: center;
+    flex-direction: column;
+    background-size: auto 100%;
+    margin: 0;
+  }
+  .holder-block {
+    margin-bottom: 30px;
+  }
+  .holder-btn {
+    align-self: center;
+  }
+  .profits {
+    padding-left: 30px;
+    margin-bottom: 450px;
+  }
+  .profit-1, .profit-2, .profit-3 {
+    width: 100%;
+    height: 100%;
+  }
+  .profits h3 {
+    font-size: 18px;
+  }
+  .profits p {
+    font-size: 15px;
+  }
+  .profit-2 {
+    margin: 0px 10px 0px 10px;
+  }
+  .case {
+    padding-left: 30px;
+  }
+  .fund h2 {
+   padding-top: 110px;
+  }
+  .fund-blocks {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+  }
+  .blocks1, .blocks2 {
+    display: block;
+    margin: 0;
+  }
+  .block {
+    margin-bottom: 25px;
+  }
+  .review p {
+    width: 85%;
+    margin-bottom: 50px;
+    height: 150px;
+    font-size: 16px;
+    text-align: justify;
+  }
+  .review-person h3 {
+    margin-top: 0px;
+    width: 100%;
+  }
+  .review-person p {
+    margin-bottom: 0px;
+    height: auto;
+    width: 100%;
+  }
+  .figure-img {
+    display: none;
+  }
+  .offer-title {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .offer-button {
+    margin: 20px 0px 20px 0px;
+  }
+  .box {
+    margin-bottom: 40px;
+  }
+  .company {
+    width: 25%;
+  }
+  .company img {
+    width: 90%;
+  }
+  .company p {
+    width: 90%;
+    margin-left: 0;
+    margin-top: 8px;
+  }
+  .socials {
+    width: auto;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 40px 0px 40px;
+    width: auto;
+  }
+  .burger-img {
+    width: 30%;
+  }
+  .menu a {
+    margin-bottom: 10px;
+  }
+  .account {
+    width: auto;
+  }
+  .account a {
+    margin-right: 10px;
+  }
+  .about-title h1 {
+    font-size: 44px;
+  }
+  .profits {
+    padding-left: 15px;
+  }
+  .profit-2 h3 {
+    margin-bottom: 10px;
+  }
+  .case {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .case-text h2 {
+    margin: 0 auto;
+    width: auto;
+  }
+  .case-text p {
+    margin: 20px;
+    width: auto;
+  }
+  .review-person {
+    width: auto;
+    margin: 70px 0px 0px 0px;
+  }
+  .review-person h3 {
+    font-size: 16px;
+  }
+  .review-person p {
+    font-size: 12px;
+  }
+  .arrows {
+    margin-top: 80px;
+  }
+  .box {
+    justify-content: space-around;
+  }
+  .company {
+    display: none;
+  }
+}
+
+/* 350px - 576px */
+@media screen and (max-width: 576px) {
+  .burger {
+    flex-direction: column;
+   }
+   .burger-img {
+    width: auto;
+   }
+   .menu {
+    flex-direction: row;
+    margin: 10px 0px 10px 0px;
+    width: 90%;
+   }
+   .account {
+    width: 70%;
+    font-size: 14px;
+   }
+   .account-reg {
+    width: auto;
+    padding: 15px 20px;
+   }
+   .about-title h1 {
+    font-size: 27px;
+   }
+   .about-title p {
+    font-size: 15px;
+   }
+   .about-holder {
+    padding: 50px 0px 75px 0px;
+   }
+   .profits {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0;
+   }
+   .profits img {
+    width: 45%;
+    margin: 20px 0px -20px 20px;
+   }
+   .case-text h2 {
+    font-size: 30px;
+   }
+   .case-text p {
+    font-size: 16px;
+   }
+   .fund {
+    padding: 0px;
+   }
+  .fund-blocks {
+    flex-wrap: wrap;
+  }
+  .block {
+    margin-bottom: 30px;
+  }
+  .clients h2 {
+    text-align: center;
+  }
+  .reviews {
+    flex-wrap: wrap;
+  }
+  .reviews p {
+    margin-right: 0;
+  }
+  .review {
+    height: 100%;
+    margin: 0px 0px 20px 30px;
+  }
+  .review-person {
+    margin-top: 80px;
+  }
+  .offer-title h2 {
+    font-size: 19px;
+  }
+  .offer-title p {
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+  .box, .info {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .info, .socials {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .info a {
+    text-align: center;
+    font-size: 11px;
+  }
+}
